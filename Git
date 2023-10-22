@@ -1,0 +1,30 @@
+Git : 
+To use git in CLI, use PAT token 
+Generate a PAT token : Github -> Settings -> Developer Settings -> Personal Access Tokens -> Generate a classic token
+
+configure git CLI : 
+	git config --global user.name "Nagadath-Gummadi" -> Sets the default username
+	git config --global user.email "nagadath28@gmail.com" ->Sets the default user email
+	git config --global credential.helper cache  -> caches the password (token) when given after enabling this setting.
+	
+Commands : 	
+# git clone <URL> 
+## Clones the github repository
+
+# git push
+## Pushes your committed changes
+
+# git commit -m "Commit message"
+## Commits all the changes that are in stage
+
+# git add <filename>
+## Adds the files to staging 
+
+# git add *
+## Adds all the changed files to staging
+
+# git status 
+## Displays the difference between origin to local clone
+
+# git init 
+## Initialises (empty) git repository in the current working directory.
